@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+java -cp .:../stdlib.jar KernelFilter https://coursera.cs.princeton.edu/introcs/assignments/oop1/baboon.png
+java -cp .:../stdlib.jar Huntingtons repeats4.txt
+java -cp .:../stdlib.jar Huntingtons repeats64.txt
+java -cp .:../stdlib.jar Huntingtons chromosome4-healthy.txt
+java -cp .:../stdlib.jar Huntingtons chromosome4-hd.txt

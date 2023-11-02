@@ -22,10 +22,8 @@ do
     fi
     
 done
-./test && zip -j  submit.zip $(ls -f *.{java,wav} )
-#&& zip -j  submit.zip $(ls -f *.java )
-#for Week 5
-#zip -j  submit.zip $(ls -f *.{java,wav} )
+./test
+zip -j submit.zip $(ls -f *.java )
 
 )
 
