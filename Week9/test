@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+java -cp .:../stdlib.jar ColorHSB 25 84 97  < web.txt
+java -cp .:../stdlib.jar ColorHSB 350 100 45 < web.txt
+java -cp .:../stdlib.jar ColorHSB 25 84 97 < wiki.txt
+java -cp .:../stdlib.jar Clock
