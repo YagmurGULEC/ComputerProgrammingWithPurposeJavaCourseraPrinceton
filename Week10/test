@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+#java -cp .:../stdlib.jar Bar
+#java -cp .:../stdlib.jar BarChart
+java -cp .:../stdlib.jar BarChartRacer cities.txt 10
+
