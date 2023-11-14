@@ -1,0 +1,12 @@
+#!/bin/bash
+
+java -cp .:../stdlib.jar MaximumSquareSubmatrix < square6.txt
+#java -cp .:../stdlib.jar Inversions 10 45
+
+#java -cp .:../stdlib.jar Inversions 20 62
+
+#java -cp .:../stdlib.jar Inversions 10 25
+#java -cp .:../stdlib.jar Inversions 10 30
+
+#java -cp .:../stdlib.jar Inversions 10 30
+
